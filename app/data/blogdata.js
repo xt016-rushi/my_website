@@ -1,9 +1,10 @@
+import { blogPosts } from '@/data/blogData';
 export const blogPosts = [
-  {
+{
     id: 1,
-    title: "Next.js ma Routing Kem Work Kare",
-    excerpt: "Next.js App Router na fundamentals ane kem tame routing implement karo.",
-    content: "Next.js App Router file-based routing system provide kare...",
+    title: "How Routing Works in Next.js",
+    excerpt: "Fundamentals of the Next.js App Router and how to implement routing.",
+    content: "Next.js App Router provides a file-based routing system...",
     author: "John Doe",
     date: "2024-01-15",
     readTime: "5 min read",
@@ -13,9 +14,9 @@ export const blogPosts = [
   },
   {
     id: 2,
-    title: "Tailwind CSS thi Professional Design",
-    excerpt: "Tailwind CSS use kari ne responsive ane beautiful designs kem banaviye.",
-    content: "Tailwind CSS utility-first framework che je rapid UI development ma help kare...",
+    title: "Professional Design with Tailwind CSS",
+    excerpt: "How to create responsive and beautiful designs using Tailwind CSS.",
+    content: "Tailwind CSS is a utility-first framework that helps in rapid UI development...",
     author: "Jane Smith",
     date: "2024-01-12",
     readTime: "7 min read",
@@ -25,9 +26,9 @@ export const blogPosts = [
   },
   {
     id: 3,
-    title: "React Hooks Complete Guide",
-    excerpt: "React Hooks na sare concepts ane practical examples.",
-    content: "React Hooks functional components ma state ane lifecycle features use karva mate...",
+    title: "Complete Guide to React Hooks",
+    excerpt: "All key concepts of React Hooks with practical examples.",
+    content: "React Hooks allow functional components to use state and lifecycle features...",
     author: "Mike Johnson",
     date: "2024-01-10",
     readTime: "10 min read",
