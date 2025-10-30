@@ -1,5 +1,6 @@
 import BlogCard from './blogcard';
-import { blogPosts } from '../data/blogdata';
+import { blogPosts } from '@/data/blogData';
+
 import Link from 'next/link';
 
 export default function BlogSection({ limit = 3 }) {
