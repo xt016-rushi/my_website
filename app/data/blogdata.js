@@ -1,4 +1,4 @@
-import { blogPosts } from '@/data/blogData';
+import { blogPosts } from '@/app/data/blogData';
 export const blogPosts = [
 {
     id: 1,
