@@ -1,7 +1,5 @@
 import Link from 'next/link'
 import BlogCard from './blogcard';
-
-
 export default function BlogCard({ post }) {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
