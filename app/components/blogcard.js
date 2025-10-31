@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import BlogCard from './blogcard';
+
 
 export default function BlogCard({ post }) {
   return (

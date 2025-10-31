@@ -1,5 +1,4 @@
 import { blogPosts } from '../../../data/blogData'; 
-import { blogPosts } from '@/data/blogData';
 
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
